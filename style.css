@@ -1,0 +1,84 @@
+	.navbar{
+		background-color: rgb(32, 32, 32);
+		/* rgb(164, 102, 160); */
+	  	border: none;
+	}
+
+	.navbar h4{
+		color: rgb(255, 255, 255, 0.9);
+		font-family: arial;
+		/*font-style: italic;*/
+	}
+	.navbar .navbar-toggler{
+		border-color: white;
+		color: white;
+	}
+/* important to remove hover */
+	.navbar-brand{
+		color: white !important;
+		position: relative;
+	}
+
+	/* underline on hover */
+/* https://codepen.io/maheshambure21/pen/QwXaRw */
+
+	.collapse ul.navbar-nav>li>a{
+		color: white;
+	}
+
+	.collapse ul.stroke>li>a{
+		position: relative;
+	}
+
+	.collapse ul.stroke>li>a:after{
+		  position: absolute;
+		  bottom: 0;
+		  left: 0;
+		  right: 0;
+		  margin: auto;
+		  width: 0%;
+		  content: '.';
+		  color: transparent;
+		  background: #aaa;
+		  height: 1px;
+	}
+
+	.collapse ul.stroke>li>a:hover:after{
+		width: 100%;
+	}
+
+
+/* BODY */
+.body{
+	background-color: rgb(32, 32, 32, 0.5);
+	width: 100%;
+	height: 500px/*300px*/;
+}
+.carousel-item{
+	height: 730px;
+}
+
+/*FOOTER*/
+.footer{
+	margin-bottom:0;
+	background-color: rgb(32, 32, 32);
+}
+
+.footer #connect{
+	font-size: 25px;
+	color: white;
+}
+
+.footer #copyright{
+	font-size: 12px;
+	text-align: center;
+	color: rgb(179, 179, 179, 0.7);
+}
+
+.footer a{
+	color: white;
+}
+
+.footer a:hover{
+	color: rgb(179, 179, 179);
+}
