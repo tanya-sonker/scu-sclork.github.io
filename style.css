@@ -71,6 +71,21 @@
 	height: 600px/*300px*/;
 }
 
+.blog{
+	margin: 5% 10%;
+}
+
+.soon{
+	text-align: center;
+	font-size: 50px;
+	
+}
+.blog span{
+	text-align: center;
+	/*color: rgb(32, 32, 32, 0.6);*/
+	color: rgb(255, 204, 102);
+}
+
 #vid{
 	margin: 10% 10% 10% 10%;
 }
